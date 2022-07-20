@@ -1,0 +1,33 @@
+const baseUrl = `http://103.226.249.30:8004/`;
+
+const API = {
+  baseUrl: () => baseUrl,
+  register: () => baseUrl + 'api/register',
+  checkPhone: () => baseUrl + 'api/check-phone',
+  login: () => baseUrl + 'api/login',
+  logout: () => baseUrl + `api/logout`,
+  forgotPassword: () => baseUrl + 'api/forgost-password',
+  home: () => baseUrl + 'api/home',
+  category: () => baseUrl + 'api/home/list_category',
+  getListChildren: () => baseUrl + `api/home/list_category_product`,
+  allPrd: page => baseUrl + `api/product/filter?page=${page}`,
+  detailProduct: () => baseUrl + `api/product/product_detail`,
+  filterProduct: page => baseUrl + `api/product/filter?page=${page}`,
+  add_cart: () => baseUrl + `api/cart/add_to_cart`,
+  cart: () => baseUrl + `api/cart/get_cart`,
+  listBanks: () => baseUrl + `api/wallet/list_bank`,
+  add_bank: () => baseUrl + `api/wallet/add_bank`,
+  editBank: () => baseUrl + `api/wallet/edit_bank`,
+  delBank: () => baseUrl + `api/wallet/delete_bank`,
+  wallet: () => baseUrl + `api/wallet`,
+  address: () => baseUrl + `api/address_shipping/list_address_shipping`,
+  listProvince: () => baseUrl + `api/address_shipping/get_province_ghn  `,
+  listDistrict: () => baseUrl + `api/address_shipping/get_district_ghn`,
+  listWard: () => baseUrl + `api/address_shipping/get_ward_ghn`,
+  saveAddress: () => baseUrl + `api/address_shipping/add_address_shipping`,
+  editAddress: () => baseUrl + `api/address_shipping/edit_address_shipping`,
+  delAddress: () => baseUrl + `api/address_shipping/delete_address_shipping`,
+  history: page => baseUrl + `api/wallet/history_payment?${page}`,
+  notify: page => baseUrl + `api/notification?${page}`,
+};
+export default API;

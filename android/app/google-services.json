@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "132487467730",
+    "project_id": "otp-verification-a9132",
+    "storage_bucket": "otp-verification-a9132.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132487467730:android:5efe28eb9695d4cb15130b",
+        "android_client_info": {
+          "package_name": "com.giathanhphat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132487467730-63oc7tlus77othck40vnb76rl64cmmba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFrtcUp42NsTuXT4_XcEKr6NlM4DG7Bdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132487467730-63oc7tlus77othck40vnb76rl64cmmba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132487467730:android:73120044afe29e5915130b",
+        "android_client_info": {
+          "package_name": "com.otpproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132487467730-63oc7tlus77othck40vnb76rl64cmmba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFrtcUp42NsTuXT4_XcEKr6NlM4DG7Bdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132487467730-63oc7tlus77othck40vnb76rl64cmmba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
